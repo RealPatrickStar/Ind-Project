@@ -1,0 +1,33 @@
+.middle{
+    
+    display: block;
+    font-size:xx-large;
+    background-color:powderblue;
+    padding:14px 40px;
+    width: 100%;
+    transition-duration: 0.4s;
+    
+
+}
+
+body{
+    background-color:wheat;
+}
+
+.hide{
+    display: none;
+}
+
+.unhide{
+    display: unset;
+}
+
+#title{
+    color:maroon;
+    
+}
+h1{
+    color: darkblue;
+    font-size: 3pc;
+    text-align: center;
+}

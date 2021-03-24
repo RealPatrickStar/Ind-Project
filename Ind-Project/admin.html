@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+    <link rel="stylesheet" href="css/lab2Style.css">
+    
+</head>
+<body>
+    <h2>Quotes:</h2>    
+    <input type="button" value="Display Quotes" id="read"> 
+    <input type="button" value="Hide Quotes" id="hide"> <br> <br>
+    
+    <div id="scoresData">
+
+    </div>
+    <br> 
+    <h2> Manage Quotes:</h2> 
+    <form id=input>
+        <h1 id = "nam">  </h1>
+        <p> <b> Add new Quote </b></p>
+        
+        <input type= "text" id= "quote"  placeholder ="Quote">
+        <input type= "text" id= "author"  placeholder ="Author">
+        
+        <p id="prompt2"></p>
+        <input type="button" value="Add" id="addQuote">
+        <br>
+        
+        <br>
+
+    </form>
+    
+    <form id=updateForm>
+        <h1 id = "nam">  </h1>
+        <p> <b> Update Existing Quote </b></p>
+        <p style="color:red"> <b> Please make sure the number you enter exists in the list above. </b> </p>
+        <input type= "number" id= "num" placeholder ="Quote Number">
+        <input type= "text" id= "quote"  placeholder ="New Quote">
+        <input type= "text" id= "author"  placeholder ="New Author"> <br>
+        <p id="prompt3"></p>
+        <input type="button" value="Update" id="change">
+        <br>
+        <br>
+
+    </form>
+    
+    <form id=deleteForm>
+        <h1 id = "nam">  </h1>
+        <p> <b> Delete Existing Quote </b></p>
+        <p style="color:red"> <b> Please make sure the number you enter exists in the list above. </b> </p>
+        <input type= "number" id= "num" placeholder ="Quote Number">
+        <p id="prompt4"></p>
+        <input type="button" value="Delete" id="remove">
+        
+
+    </form>
+    
+    
+    
+    
+    <br>
+    <a href="index.html">
+        <input type="button" value="Back to Project Page">
+    </a>
+    
+    
+    <script src="js/write.js"></script>
+</body>
+</html>
